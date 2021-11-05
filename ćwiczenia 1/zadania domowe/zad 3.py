@@ -6,7 +6,10 @@ def sprawdzaniePliku(lista_plikow):
         for index , letters in enumerate(plik):
             if letters == '.':
                 if plik[index:] != '.py':
-                    mkdir(plik[index+1:])
+                    try:
+                        mkdir(plik[index+1:])
+                    except:
+                        pass
                     for p in lista_plikow:
                         if p.count(plik[index:]):
                             move(p,plik[index+1:])
