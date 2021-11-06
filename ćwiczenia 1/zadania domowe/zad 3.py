@@ -1,16 +1,17 @@
-from os import mkdir,walk
+from os import makedirs,walk
 from shutil import move
 
 def przenoszenie_plikow(lista_plikow):
     while len(lista_plikow) > 0:
         listaremove = []
         plik = lista_plikow[0]
-        for index , letters in enumerate(plik):
+        for index , letters in enumerate(plik[::-1]):
             if letters == '.':
-                mkdir(plik[index+1:],exist_ok=True)
+                i = len(plik)-index
+                makedirs(plik[i:],exist_ok=True)
                 for plik_przeniesienie in lista_plikow:
-                    if plik_przeniesienie.count(plik[index:]):
-                        move(plik_przeniesienie,plik[index+1:])
+                    if plik_przeniesienie.count(plik[i-1:]):
+                        move(plik_przeniesienie,plik[i:])
                         listaremove.append(plik_przeniesienie)
                 for file in listaremove:
                     lista_plikow.remove(file)
