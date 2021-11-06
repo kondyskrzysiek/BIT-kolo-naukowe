@@ -1,28 +1,36 @@
-from os import listdir,mkdir,walk
+from os import mkdir,walk
 from shutil import move
 
-def sprawdzaniePliku(lista_plikow):
-    for plik in lista_plikow:
+def sprawdzaniePliku(lista_plikow,foldery):
+    while len(lista_plikow) > 0:
+        listaremove = []
+        plik = lista_plikow[0]
         for index , letters in enumerate(plik):
             if letters == '.':
-                if plik[index:] != '.py':
-                    try:
-                        mkdir(plik[index+1:])
-                    except:
-                        pass
-                    for p in lista_plikow:
-                        if p.count(plik[index:]):
-                            move(p,plik[index+1:])
-                            print(f'przeniesie pliku {p} do {plik[index+1:]} ')
-                return
+                if not plik[index+1:] in foldery:
+                    mkdir(plik[index+1:])
 
+                for plik_przeniesienie in lista_plikow:
+                    if plik_przeniesienie.count(plik[index:]):
+                        move(plik_przeniesienie,plik[index+1:])
+                        listaremove.append(plik_przeniesienie)
+                for file in listaremove:
+                    lista_plikow.remove(file)
+
+def zczytywanie_folderow_plikow():
+    for (root, dirs, files) in walk("./"):
+        break
+
+    should_restart = True
+    while should_restart:
+        should_restart = False
+        for file in files:
+            if file.count('.py'):
+                files.remove(file)
+                should_restart = True
+                break
+    return dirs,files
 
 if __name__ == '__main__':
-    for subdir, dirs, files in walk('./'):
-        del dirs[:]
-
-    while len(files)>1:
-        sprawdzaniePliku(files)
-
-        for subdir, dirs, files in walk('./'):
-            del dirs[:]
+    dirs, files = zczytywanie_folderow_plikow()
+    sprawdzaniePliku(files,dirs)
