@@ -1,7 +1,7 @@
 from os import mkdir,walk
 from shutil import move
 
-def sprawdzaniePliku(lista_plikow,foldery):
+def przenoszenie_plikow(lista_plikow,foldery):
     while len(lista_plikow) > 0:
         listaremove = []
         plik = lista_plikow[0]
@@ -33,4 +33,4 @@ def zczytywanie_folderow_plikow():
 
 if __name__ == '__main__':
     dirs, files = zczytywanie_folderow_plikow()
-    sprawdzaniePliku(files,dirs)
+    przenoszenie_plikow(files,dirs)
