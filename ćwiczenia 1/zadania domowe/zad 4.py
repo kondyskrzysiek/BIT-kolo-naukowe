@@ -8,7 +8,7 @@ if __name__ == '__main__':
     array = tworzenie_array(n,m)
     wypisanie_array(array)
 
-    command = input('>>podaj liste komend po koleji odzielone pomiędzy spacją<<\n'
+    command = input('>>podaj liste komend po koleji odzielone pomiędzy spacją , linie komend zakończ komendą "done"<<\n'
                     '>>flip_horizontal  ,   flip_vertical   ,  rotate_right   ,  rotate_left   ,   reverse_values<<\n'
                     '>>')
     commandList = command.split()

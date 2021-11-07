@@ -1,6 +1,7 @@
 from random import randint
 
 def wypisanie_array(array):
+    print('\n')
     for line in array:
         print(line)
     print('\n')
@@ -14,8 +15,6 @@ def tworzenie_array(n,m):
 
 def flip_horizontal(array):
     array_flip_horizontal = array[::-1]
-    print('flip_horizontal')
-    wypisanie_array(array_flip_horizontal)
     return array_flip_horizontal
 
 def flip_vertical(array):
@@ -24,8 +23,6 @@ def flip_vertical(array):
         wiersz = line[::-1]
         array_flip_vertical.append(wiersz)
 
-    print('flip_vertical')
-    wypisanie_array(array_flip_vertical)
     return array_flip_vertical
 
 def rotate(array,l_obrotow,n,m):
@@ -42,8 +39,6 @@ def rotate(array,l_obrotow,n,m):
         n , m = m , n
         l_obrotow -= 1
 
-    print('rotate ',kierunek)
-    wypisanie_array(array_help)
     return array_help,n,m
 
 def reverse_array(array):
@@ -52,13 +47,16 @@ def reverse_array(array):
         wiersz = [255-digit for digit in line]
         array_help.append(wiersz)
 
-    print('reverse')
-    wypisanie_array(array_help)
     return array_help
 
 def commandOpenDef(list,array,n,m):#flip_horizontal  ,   flip_vertical   ,  rotate_right   ,  rotate_left   ,   reverse_values
     for command in list:
-        if command.lower() == 'flip_horizontal':
+
+        if command.lower() == 'done':
+            print('\n\nwynik końcowy')
+            wypisanie_array(array)
+            break
+        elif command.lower() == 'flip_horizontal':
             array = flip_horizontal(array)
         elif command.lower() == 'flip_vertical':
             array = flip_vertical(array)
