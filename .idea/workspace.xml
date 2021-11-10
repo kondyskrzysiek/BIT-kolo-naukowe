@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="pytest in cwiczenie_2.py" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3efe1278-735d-4a2a-9a2e-3bbf6f6bc95e" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/ćwiczenia 2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/testTask3.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20ghD6sdkRPsT1zZ0prfsq3GoAC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in ćwiczenia">
+    <configuration name="cwiczenie 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIT-kolo-naukowe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\pythonProject\BIT-kolo-naukowe\ćwiczenia 2\ćwiczenia\cwiczenie 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\krzys\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/task_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\krzys\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/task_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\krzys\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in ćwiczenia" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\krzys\PycharmProjects\help\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ćwiczenia 2/ćwiczenia" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ćwiczenia 2/ćwiczenia&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.task_4" />
+      <item itemvalue="Python.cwiczenie 2" />
+      <item itemvalue="Python.task_3" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.pytest in ćwiczenia" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.task_3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3efe1278-735d-4a2a-9a2e-3bbf6f6bc95e" name="Changes" comment="" />
+      <created>1636472022612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636472022612</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ćwiczenie 2&#10;&#10;&#10;Napisz program, który wczytuje od użytkownika 3 liczby zmiennoprzecinkowe będące długościami boków trójkąta (w sumie reprezentują trójkąt). Następnie napisz funkcję, która oblicza pole trójkąta za pomocą wzoru Herona. Wyświetl pole dla trójkąta wprowadzonego przez użytkownika zaokrąglone do 3 miejsca po przecinku.&#10;Wskazówki:&#10;użyj odpowiedniej struktury danych do reprezentowania trójkąta&#10;pierwiastek (funkcja sqrt) znajduje się w module wbudowanym math&#10;wzór Herona:&#10;&#10;do zaokrąglania dłuży funkcja round(number, decimal_places)&#10;&#10;Przykład:&#10;&gt; 4.503 2.377 3.902&#10;Triangle area is: 4.635">
+      <created>1636482945401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636482945402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task 3&#10;&#10;&#10;Stwórz listę 100 losowych liczb całkowitych z zakresu [-10, 10] (używając funkcji randint() z modułu random). Następnie napisz funkcję deduplicate_and_sort(), która przyjmuje listę i zwraca listę bez duplikatów, posortowaną rosnąco. Przetestuj swoją funkcję na stworzonej liście.&#10;Listę można posortować na 2 sposoby:&#10;metoda list .sort(), działa tylko dla list, sortuje listę w miejscu&#10;funkcja wbudowana sorted(), sortuje obiekt (niekoniecznie listę) i zwraca posortowaną listę&#10;&#10;Spróbuj tak zaimplementować tę funkcję, aby była jak najkrótsza, wykorzystując odpowiednie struktury danych.">
+      <created>1636494334493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636494334493</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modyfikacja nazwy">
+      <created>1636494377638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636494377638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ćwiczenie 2&#10;&#10;&#10;Napisz program, który wczytuje od użytkownika 3 liczby zmiennoprzecinkowe będące długościami boków trójkąta (w sumie reprezentują trójkąt). Następnie napisz funkcję, która oblicza pole trójkąta za pomocą wzoru Herona. Wyświetl pole dla trójkąta wprowadzonego przez użytkownika zaokrąglone do 3 miejsca po przecinku.&#10;Wskazówki:&#10;użyj odpowiedniej struktury danych do reprezentowania trójkąta&#10;pierwiastek (funkcja sqrt) znajduje się w module wbudowanym math&#10;wzór Herona:&#10;&#10;do zaokrąglania dłuży funkcja round(number, decimal_places)&#10;&#10;Przykład:&#10;&gt; 4.503 2.377 3.902&#10;Triangle area is: 4.635" />
+    <MESSAGE value="task 3&#10;&#10;&#10;Stwórz listę 100 losowych liczb całkowitych z zakresu [-10, 10] (używając funkcji randint() z modułu random). Następnie napisz funkcję deduplicate_and_sort(), która przyjmuje listę i zwraca listę bez duplikatów, posortowaną rosnąco. Przetestuj swoją funkcję na stworzonej liście.&#10;Listę można posortować na 2 sposoby:&#10;metoda list .sort(), działa tylko dla list, sortuje listę w miejscu&#10;funkcja wbudowana sorted(), sortuje obiekt (niekoniecznie listę) i zwraca posortowaną listę&#10;&#10;Spróbuj tak zaimplementować tę funkcję, aby była jak najkrótsza, wykorzystując odpowiednie struktury danych." />
+    <MESSAGE value="modyfikacja nazwy" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+</project>
