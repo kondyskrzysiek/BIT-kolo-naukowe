@@ -16,7 +16,7 @@ def fibonnaciego(n):
         return n
     else:
         # print(fibonnaciego(n-2) + fibonnaciego(n-1))
-        return fibonnaciego(n-2) + fibonnaciego(n-1)
+        return fibonnaciego(n - 2) + fibonnaciego(n - 1)
 
 if __name__ == '__main__':
     for i in range(10):
