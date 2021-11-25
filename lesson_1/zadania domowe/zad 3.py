@@ -35,6 +35,7 @@ def zczytywanie_folderow_plikow():
                 break
     return files
 
+
 if __name__ == '__main__':
     a = process_time
     print()
