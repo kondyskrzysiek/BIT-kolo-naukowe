@@ -148,4 +148,7 @@ def zip_laczenie_list_parzystych_i_nieparzystych():
 
 
 if __name__ == '__main__':
-    zip_laczenie_list_parzystych_i_nieparzystych()
+    # zip_laczenie_list_parzystych_i_nieparzystych()
+    l = [1,2,3]
+    lista = [x * [3, 5,6][x % 3] for x in l]
+    print(lista)
